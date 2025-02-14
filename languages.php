@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-    <head>        
+    <head>
         <title>Simple DirectMedia Layer - Language Bindings</title>
         <?php require_once("include/meta.inc.php"); ?><?php $current_page = basename(__FILE__, '.php'); ?>
     </head>
-    <body>   
-       
+    <body>
+
         <div id="wrapper">
             <?php require_once("include/header.inc.php"); ?>
             <div id="left">
@@ -24,7 +24,7 @@
 
                 <div class="clearer"></div>
                 <div class="col left">
-                   
+
                     <blockquote>
                         <ul>
                             <li> <strong>
@@ -47,6 +47,13 @@
                                 <br/>
                                 Neslib.Sdl3 -
                                 <a href="https://github.com/neslib/Neslib.Sdl3">https://github.com/neslib/Neslib.Sdl3</a>
+                            </li>
+                            <li> <strong>
+                                    Go
+                                </strong>
+                                <br/>
+                                purego-sdl3 -
+                                <a href="https://github.com/JupiterRider/purego-sdl3">https://github.com/JupiterRider/purego-sdl3</a>
                             </li>
                             <li> <strong>
                                     Nim
@@ -86,11 +93,11 @@
                         </ul>
                     </blockquote>
 
-                </div>                
+                </div>
             </div>
-            <div class="clearer"></div>            
+            <div class="clearer"></div>
         </div>
-        <?php require_once("include/footer.inc.php"); ?> 
+        <?php require_once("include/footer.inc.php"); ?>
 
     </body>
 </html>
